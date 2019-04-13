@@ -1,0 +1,28 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="title m-b-md">
+                        Postuler pour cette offre !
+                    </div>
+
+                <div style="margin-top: 15px; ">
+                    <form method="POST" action="{{ route('comments_store', $post->id) }}">
+                        @csrf
+                        <div class="form-group">
+                            <textarea class="form-control" id="name" rows="3" name="name" placeholder="nom"></textarea>
+                            <br>
+                            <textarea class="form-control" id="contenu" rows="3" name="contenu" PLACEHOLDER="Message"></textarea>
+                            <br>
+                            <textarea class="form-control" id="email" rows="3" name="email" placeholder="email"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary float-right">Ajouter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection

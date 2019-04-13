@@ -1,6 +1,8 @@
 ## Projet Php 
 
 
+
+
 **DESCIPTION DU PROJET**
 
 Il s’agit d’un petit « site d’emploi » qui permet :
@@ -26,6 +28,9 @@ En fonction de l’utilisateur connecté (étudiant ou entreprise), une page app
 
 Lorsque l’étudiant postule, l’entreprise pour laquelle il postule doit recevoir un mail lui disant qu’il a bien postulé. Il faut être inscrit pour accéder aux offres.
 
+
+
+
 **PRÉREQUIS**
 
 -   PHP 7
@@ -34,6 +39,8 @@ Lorsque l’étudiant postule, l’entreprise pour laquelle il postule doit rece
 -   Vagrant
 -   PhpStorm
 -   Mamp
+
+
 
 **OBJECTIF DU PROJET :**
 
@@ -45,6 +52,8 @@ Lorsque l’étudiant postule, l’entreprise pour laquelle il postule doit rece
 -   Mise en place d’un environnement développement avec VAGRANT
 -   Utilisation de framework
 -   Méthode MVC via routes
+
+
 
 
 **MEMBRE DU PROJET**
